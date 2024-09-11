@@ -57,11 +57,11 @@ class CongNhan {
 //tinh luong
     public double tinhLuong() {
         double donGia = 0;
-        if (mSoSP >= 1 && mSoSP <= 199) {
+        if (mSoSP >= 1) {
             donGia = 0.5;
-        } else if (mSoSP >= 200 && mSoSP <= 399) {
+        } else if (mSoSP >= 200) {
             donGia = 0.55;
-        } else if (mSoSP >= 400 && mSoSP <= 599) {
+        } else if (mSoSP >= 400) {
             donGia = 0.6;
         } else if (mSoSP >= 600) {
             donGia = 0.65;
